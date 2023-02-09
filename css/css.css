@@ -86,3 +86,10 @@ text-align: right;
 -ms-writing-mode: tb-rl;
 writing-mode: vertical-rl;
 }
+.img img{
+        position: absolute;
+        top:11%;
+        right:2%;
+        width: 20%;
+	height: auto;
+      }
