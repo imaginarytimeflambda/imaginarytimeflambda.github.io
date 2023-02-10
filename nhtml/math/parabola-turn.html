@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<html lang="ja">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="../../css/css.css">
+</head>
+<body >
+<div class="base">
+<div class="hidari">
+	<iframe src="../../nhtml/profile.html" width="100%" height="52%"></iframe>
+	<iframe src="../../nhtml/menu.html" width="100%" height="30%"></iframe>
+	<iframe src="https://free.timeanddate.com/clock/i8pob63s/n248/szw110/szh110/hoc222/hbw6/cf100/hgr0/hcw2/hcd88/fan2/fas20/fnu2/fdi70/mqc000/mqs3/mql13/mqw4/mqd94/mhc000/mhs3/mhl13/mhw4/mhd94/mmc000/mml5/mmw1/mmd94/hwm1/hhs2/hhb18/hms2/hml80/hmb18/hmr7/hsc000/hss2/hsl90/hsr3" frameborder="0" width="110" height="110"></iframe>
+</div>
+<div class="migi">
+<h1>我々は放物線回転屋さん</h1>
+<div class="honbun">
+<h4>・放物線を回転させたい</h4>
+中学生のころ数学で新登場する放物線。(世の中は放物線で溢れているが)<br>
+中学時代はせいぜいグラフの開き具合と上か下のどちらに凸かぐらいしか調整できない。<br>
+<img src="./parabola-str.jpg" width="10%">
+<img src="./parabola.jpg" width="20%"><br>
+数Ⅰになると流石に平行移動ぐらいはできるが、<br>
+<img src="./parabola-move-str.jpg" width="20%">
+<img src="./parabola-move.jpg" width="20%"><br>
+まだ上に凸か下に凸のものしかないので、「グラフの軸の方程式のx=?の部分は放物線では頂点のx座標に常に等しい」と思い込む奴は異常に多い。<br>
+さあ、それではどうすれば放物線が回転できるか。
+<h4>・放物線回転屋に立ち寄る</h4>
+それでは放物線回転屋を訪問しよう。<br>
+ここでは放物線y=x^2を原点を中心としてβラジアン回転させることを考えよう。<br><br>
+xy平面上の任意の点P(a,b)について、a=r cosα, b=r sinαと表現することが可能で、点Pを原点を中心としてβラジアン回転させた点をP'(c,d)とすると、
+c=r cos(α+β) かつ d=r sin(α+β)<br>
+⇔c=r cosαcosβ - r sinαsinβ かつ d=r sinαcosβ + r cosαsinβ<br>
+⇔c=a cosβ - bsinβ かつ d=bcosβ + asinβ ・・・①<br>
+媒介変数をtとしたとき、放物線y=x^2の媒介変数表示は(t,t^2)なので、点Pが放物線y=x^2上にあるとき・・②、a=t かつb=t^2とおけるので、<br>
+①<br>
+⇔c=t cosβ - t^2sinβ かつ d=t^2cosβ + tsinβ<br>
+⇔c=t(cos β-t sinβ) かつ d=t(t cos β+sinβ)・・・③<br>
+③は点P'についての媒介変数表示であり、<br>
+②のとき、点P'は放物線y=x^2を原点を中心としてβラジアン回転させた放物線上にあるので、③は求める放物線の媒介変数表示である。<br>
+あとはやりたければ自分でtを消去すれば関係式が出るが、GRAPESでは媒介変数表示の曲線がかけるのでここでは記述しない。(読者に丸投げ)<br>
+<img src="./parabola-turn.jpg" width="30%"><br>
+ここではβ=-π/4(青緑) ,β=7π/6(紫)で描いている。あとは平行移動などを駆使して自分の好きな放物線が描ける。<br>
+<br>
+<h4>・帰宅</h4>
+放物線回転屋さんでy=x^2のグラフの回転方法を教わった。<br>
+では、y=px^2+qx+sの時はどうするか。<br>
+①においてy=px^2+qx+sのグラフの媒介変数表示は(t,pt^2+qt+s)なので a=t かつ b=pt^2+qt+sとすれば、<br>
+①<br>
+⇔c=t cosβ - (pt^2+qt+s)sinβ かつ d=(pt^2+qt+s)cosβ + tsinβ<br>
+<img src="./parabola-general-turn.jpg" width="30%"><br>
+赤がy=ax^2+bx+cで、緑がこれを原点を中心として-π/4ラジアン回転させたもの。<br>
+それはまたいつか。<br>
+質問は<a href="../keijiban.html" target="_blank">掲示板</a>でどうぞ。
+</div>
+<div class="koushin">
+情報最終電送日:2023/02/10
+</div>
+</div>
+</div>
+</div>
+</body>
