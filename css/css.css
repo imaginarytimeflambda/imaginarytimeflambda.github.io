@@ -135,3 +135,7 @@ writing-mode: vertical-rl;
         width: 15%;
 	height: auto;
       }
+span.del {
+  text-decoration-line: line-through;
+  text-decoration-style:solid;
+}
